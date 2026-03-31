@@ -12,7 +12,10 @@ Traditional returns ($d=1$) often erase the market's memory. This engine impleme
 Continuous price data is encoded into a discrete linguistic string (a, b, c, d) using **Adaptive Rolling Bins**. This allows the application of Natural Language Processing (NLP) logic to identify recurring market "sentences" or motifs.
 
 ### 3. Recursive L-System Parser
-A walk-forward predictive engine that extracts production rules from market grammar. It identifies if specific sequences in the Index act as leading indicators for price action in Bitcoin.
+Inspired by the formal grammars developed by **Aristid Lindenmayer**, this engine extracts production rules from market "strings." 
+* **Biological Parallel:** Just as L-Systems model the recursive growth of plants and fractals, this parser identifies self-similar growth patterns in market volatility.
+* **Functionality:** It treats the S&P 500 as the "generator" of rules to predict the "growth" (next move) of Bitcoin.
+
 
 ### 4. Reichardt Flow Correlation
 Implements a biological-inspired **Reichardt Correlator** to measure the direction of information flow. This confirms which market acts as the "Leading Indicator" (e.g., Bitcoin as the 'Canary in the Coal Mine').
