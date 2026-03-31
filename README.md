@@ -31,5 +31,7 @@ A critical phase of this research involved identifying and eliminating **Look-ah
 2. Install requirements: `pip install pandas numpy yfinance matplotlib`.
 3. Open `final_analysis.ipynb` to view the full research and Reichardt Flow visualizations.
 
+![Reichardt Flow Analysis](reichardt_flow_plot.png)
+
 ---
 *Developed by Spectral-Sketch | Quantitative Research*# Fractal-LSystem-Market-Decoder
